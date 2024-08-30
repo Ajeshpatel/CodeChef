@@ -1,5 +1,5 @@
 """
-Mario and Bullet
+Mario and Bullet.
 
 Mario's bullet moves at XX pixels per frame. He wishes to shoot a goomba standing YY pixels away from him. The goomba does not move.
 
