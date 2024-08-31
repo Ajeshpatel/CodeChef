@@ -44,7 +44,7 @@ The minimum time taken by the policeman to catch the thief is 11 second, and thi
 when both the policeman and the thief move towards the left.
 
 Test case 33: The initial locations of the policeman and thief are 11 and 11 respectively. 
-Because the police is already present at the location of thief, the time taken by police to
+Because the police is already  present at the location of thief, the time taken by police to
 catch the thief is 00 seconds.
 """
 
