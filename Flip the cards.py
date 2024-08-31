@@ -48,7 +48,7 @@ Test Case 4: 22 cards are facing up and 88 cards are facing down. Therefore we c
 which are initially facing up.
 """
 
-# ---------------SOLUTION----------------
+# ---------------SOLUTION.----------------
 # cook your dish here
 t = int(input())
 
