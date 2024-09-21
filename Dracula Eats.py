@@ -1,5 +1,4 @@
 """
-Dracula Eats
 
 Eat, drink, and be scary
 
