@@ -15,7 +15,7 @@ Input Format:
     described in the statement.
 
 Output Format:
-For each test case, output on a new line the minimum number of attacks needed by Chef to win.
+For each test case, output on a new line the minimum number of attacks needed by Chef to  win.
 
 Constraints:
     1≤T≤1000
