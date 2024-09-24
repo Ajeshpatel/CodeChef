@@ -24,8 +24,6 @@ Constraints:
 
 Sample 1:
 Input:
-Output:
-
 4
 4
 1 1 1 1
@@ -35,7 +33,7 @@ Output:
 1 -1 -1 1 1 1
 2
 1 -1
-
+Output:
 2
 -1
 1
