@@ -53,7 +53,7 @@ Output:
 
 Explanation:
 
-Test case 1: As explained above, the total time the competition will take is 10+5+10=25 minutes.
+Test case 1: As explained above, the total time the competition will take is 10+5+10=25 minutes .
 
 Test case 2: 4 rounds will take place. The total time it will take is 30+5+30+5+30+5+30=135 minutes.
 """
