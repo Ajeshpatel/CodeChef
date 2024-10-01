@@ -1,41 +1,44 @@
 """
 Chef and Races
 
-The National Championships are starting soon. There are 44 race categories, numbered from 11 to 44, that Chef is interested in. Chef is participating in exactly 22 of these categories.
+The National Championships are starting soon. There are 4 race categories, numbered from 1 to 4, that Chef is 
+interested in. Chef is participating in exactly 2 of these categories.
 
-Chef has an arch-rival who is, unfortunately, the only person participating who is better than Chef, i.e, Chef can't defeat the arch-rival in any of the four race categories but can defeat anyone else. Chef's arch-rival is also participating in exactly 22 of the four categories.
+Chef has an arch-rival who is, unfortunately, the only person participating who is better than Chef, i.e, Chef 
+can't defeat the arch-rival in any of the four race categories but can defeat anyone else. Chef's arch-rival
+is also participating in exactly 2 of the four categories.
 
 Chef hopes to not fall into the same categories as that of the arch-rival.
 
-Given X,Y,A,BX,Y,A,B where X,YX,Y are the races that Chef participates in, and A,BA,B are the races that Chef's arch-rival participates in, find the maximum number of gold medals (first place) that Chef can win.
-Input Format
+Given X,Y,A,B where X,Y are the races that Chef participates in, and A,B are the races that Chef's arch-rival 
+participates in, find the maximum number of gold medals (first place) that Chef can win.
 
-    The first line of input contains an integer TT, denoting the number of testcases. The description of TT testcases follows.
-    Each testcase consists of a single line containing four space-separated integers — the values of X,Y,AX,Y,A, and BB respectively.
+Input Format:
+    The first line of input contains an integer T, denoting the number of testcases. The description of
+    T testcases follows.
+    Each testcase consists of a single line containing four space-separated integers — the values of X,Y,A,
+    and B respectively.
 
-Output Format
+Output Format:
+    For each testcase, print a single line containing one integer — the maximum number of gold medals 
+    that Chef can win.
 
-    For each testcase, print a single line containing one integer — the maximum number of gold medals that Chef can win.
-
-Constraints
-
-    1≤T≤1441≤T≤144
-    1≤X,Y,A,B≤41≤X,Y,A,B≤4
-    X≠YX=Y
-    A≠BA=B
+Constraints:
+    1≤T≤144
+    1≤X,Y,A,B≤4
+    X≠Y
+    A≠B
 
 Subtasks
-
 Subtask #1 (100 points): Original constraints
-Sample 1:
-Input
-Output
 
+Sample 1:
+Input:
 3
 4 3 1 2
 4 2 1 2
 2 1 1 2
-
+Output:
 2
 1
 0
