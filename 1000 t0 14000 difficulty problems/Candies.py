@@ -71,7 +71,6 @@ Test case 4: No valid set of prices exists that could give this array.
 # --------------------------------------------SOLUTION---------------------------------------------
 # cook your dish here
 t = int(input())
-# cook your dish here
 for i in range(t):
     n=int(input())
     l=list(map(int,input().split()))
