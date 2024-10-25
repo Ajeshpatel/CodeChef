@@ -11,7 +11,7 @@ Chef can then continue applying this operation on the smaller sticks he obtains,
 
 Can Chef obtain a stick of length exactly X by doing this?
 
-Input Forma:
+Input Format:
     The first line of input will contain a single integer T, denoting the number of test cases. The description 
     of the test cases follows.
     Each test case consists of a single line of input, containing two space-separated integers N,X.
