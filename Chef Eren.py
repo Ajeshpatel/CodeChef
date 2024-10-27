@@ -7,17 +7,17 @@ In the last season of Attack on Titan, there were N episodes numbered from 1 to 
 Each even indexed episode was A minutes long and each odd indexed episode was B minutes long.
 
 Calculate the total duration (in minutes) of the last season.
+
 Input Format
 
     The first line of input contains a single integer T, the number of test cases.
     The first and only line of each test case contains three integers N, A, and B, the number of episodes
     and the durations of each even-indexed and odd-indexed episodes respectively in minutes.
 
-Output Format
-
+Output Format:
 For each test case, print a single integer on a new line, the total duration of the last season in minutes.
-Constraints
 
+Constraints:
     1≤T≤100
     1≤N≤60
     1≤A,B≤60
@@ -28,6 +28,7 @@ Input:
 1 2 2
 2 3 4
 4 20 30
+
 Output:
 2
 7
