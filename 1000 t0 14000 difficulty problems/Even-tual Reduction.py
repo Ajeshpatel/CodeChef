@@ -14,19 +14,18 @@ Is it possible to erase the whole string using one or more operations?
 
 Note: A string B is a substring of a string A if B can be obtained from A by deleting several 
 (possibly none or all) characters from the beginning and several (possibly none or all) characters from the end.
-Input
 
+Input:
     The first line of the input contains a single integer T denoting the number of test cases.
     The description of T test cases follows.
     The first line of each test case contains a single integer N.
     The second line contains a single string SS with length N.
 
-Output
-
+Output:
 For each test case, print a single line containing the string "YES" if it is possible to erase the whole
 string or "NO" otherwise (without quotes).
-Constraints
 
+Constraints:
     1≤T≤200
     1≤N≤1,000
     S contains only lowercase English letters
@@ -50,7 +49,6 @@ YES
 NO
 
 Explanation:
-
 Example case 1: We can perform two operations: erase the substring "abba", which leaves us with the 
 string "cc", and then erase "cc".
 """
