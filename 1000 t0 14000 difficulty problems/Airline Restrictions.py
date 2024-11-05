@@ -27,9 +27,9 @@ Constraints:
     15≤D≤20
     5≤E≤10
 
-Subtasks
-
+Subtasks:
 Subtask #1 (100 points): original constraints
+
 Sample 1:
 Input:
 3
