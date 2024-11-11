@@ -51,20 +51,24 @@ Test case 4: The Queen can attack the following cells: {(1,1),(1,2),(2,1)}.
 """
 # --------------------------------------------------------SOLUTION----------------------------------------------------
 # cook your dish here
-# cook your dish here
-t=int(input())
+# t=int(input())
 
-for _ in range(t):
-    n,x,y=map(int,input().split())
+# for _ in range(t):
+#     n,x,y=map(int,input().split())
     
-    horizontal_and_vertical = 2 * (n - 1)
+#     horizontal_and_vertical = 2 * (n - 1)
  
-    top_left_to_bottom_right = min(x - 1, y - 1) + min(n - x, n - y)
-    top_right_to_bottom_left = min(x - 1, n - y) + min(n - x, y - 1)
+#     top_left_to_bottom_right = min(x - 1, y - 1) + min(n - x, n - y)
+#     top_right_to_bottom_left = min(x - 1, n - y) + min(n - x, y - 1)
     
-    total=horizontal_and_vertical+top_right_to_bottom_left+top_left_to_bottom_right
+#     total=horizontal_and_vertical+top_right_to_bottom_left+top_left_to_bottom_right
     
-    print(total)
+    # print(total)
+    
+# method:2
+for i in range(int(input())):
+    n,x,y=map(int,input().split())
+    print((2*(n-1))+min(x-1,y-1)+min(x-1,n-y)+min(n-x,y-1)+min(n-x,n-y))
     
     
     
