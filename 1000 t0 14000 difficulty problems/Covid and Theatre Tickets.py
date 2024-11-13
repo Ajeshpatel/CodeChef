@@ -14,6 +14,7 @@ Given the information about the number of rows and the number of seats in each r
 find the maximum number of tickets Mr. Chef can sell.
 
 Input Format:
+
     The first line of input will contain a single integer T, denoting the number of test cases.
     The description of T test cases follows.
     Each test case consists of a single line of input containing two space-separated integers N,M
@@ -32,7 +33,6 @@ Input:
 1 5
 3 3
 4 4
-
 Output:
 3
 4
@@ -49,6 +49,7 @@ at the start and end of row numbers 1 and 3.
 Test Case 3: There are four rows with four seats each. Mr. Chef can sell a maximum of 4 tickets, for
 example by choosing the seats at the start and end of row numbers 1 and 4.
 """
+
 # ---------------------------------------------SOLUTION----------------------------------------------
 # cook your dish here
 # cook your dish here
