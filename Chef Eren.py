@@ -8,8 +8,7 @@ Each even indexed episode was A minutes long and each odd indexed episode was B 
 
 Calculate the total duration (in minutes) of the last season.
 
-Input Format
-
+Input Format:
     The first line of input contains a single integer T, the number of test cases.
     The first and only line of each test case contains three integers N, A, and B, the number of episodes
     and the durations of each even-indexed and odd-indexed episodes respectively in minutes.
@@ -46,7 +45,7 @@ Test case 3: There are four episodes with indices {1,2,3,4}. Thus, there are 2 o
 and 2 even-indexed episodes ({2,4}). The total duration of the season = 2⋅A + 2⋅B = 2⋅20+2⋅30=100.
 """
 
-# ---------------SOLUTION------------
+# ----------------------------------------------SOLUTION---------------------------------------------
 # cook your dish here
 t = int(input())
 
